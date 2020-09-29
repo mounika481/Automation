@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29512" started-at="2020-09-22T19:04:41Z" finished-at="2020-09-22T19:05:11Z">
+    <groups>
+    </groups>
+    <test name="validating navigation bar" duration-ms="22278" started-at="2020-09-22T19:04:41Z" finished-at="2020-09-22T19:05:04Z">
+      <class name="Mounika.EtEProject.ValidateNavigationbar">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:Mounika.EtEProject.ValidateNavigationbar@429bffaa]" name="initialization" is-config="true" duration-ms="21192" started-at="2020-09-22T19:04:41Z" finished-at="2020-09-22T19:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="navbarValidation()[pri:0, instance:Mounika.EtEProject.ValidateNavigationbar@429bffaa]" name="navbarValidation" duration-ms="361" started-at="2020-09-22T19:05:03Z" finished-at="2020-09-22T19:05:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navbarValidation -->
+        <test-method status="PASS" signature="browserterminatin()[pri:0, instance:Mounika.EtEProject.ValidateNavigationbar@429bffaa]" name="browserterminatin" is-config="true" duration-ms="660" started-at="2020-09-22T19:05:03Z" finished-at="2020-09-22T19:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserterminatin -->
+      </class> <!-- Mounika.EtEProject.ValidateNavigationbar -->
+    </test> <!-- validating navigation bar -->
+    <test name="validating title of featured courses" duration-ms="23498" started-at="2020-09-22T19:04:41Z" finished-at="2020-09-22T19:05:05Z">
+      <class name="Mounika.EtEProject.ValidateTitle">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:Mounika.EtEProject.ValidateTitle@47987356]" name="initialization" is-config="true" duration-ms="20729" started-at="2020-09-22T19:04:41Z" finished-at="2020-09-22T19:05:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="titleValidation()[pri:0, instance:Mounika.EtEProject.ValidateTitle@47987356]" name="titleValidation" duration-ms="2218" started-at="2020-09-22T19:05:02Z" finished-at="2020-09-22T19:05:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="browserterminatin()[pri:0, instance:Mounika.EtEProject.ValidateTitle@47987356]" name="browserterminatin" is-config="true" duration-ms="533" started-at="2020-09-22T19:05:04Z" finished-at="2020-09-22T19:05:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserterminatin -->
+      </class> <!-- Mounika.EtEProject.ValidateTitle -->
+    </test> <!-- validating title of featured courses -->
+    <test name="validating user login" duration-ms="29512" started-at="2020-09-22T19:04:41Z" finished-at="2020-09-22T19:05:11Z">
+      <class name="Mounika.EtEProject.HomePage">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:Mounika.EtEProject.HomePage@7fee8714]" name="initialization" is-config="true" duration-ms="12070" started-at="2020-09-22T19:04:41Z" finished-at="2020-09-22T19:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Mounika.EtEProject.HomePage@7fee8714]" name="basePageNavigation" duration-ms="12916" started-at="2020-09-22T19:04:54Z" data-provider="getdata" finished-at="2020-09-22T19:05:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mou]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[restricteddata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavigation(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Mounika.EtEProject.HomePage@7fee8714]" name="basePageNavigation" duration-ms="4123" started-at="2020-09-22T19:05:07Z" data-provider="getdata" finished-at="2020-09-22T19:05:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mou@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[xyz]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[non-restricteddata]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="browsertermination()[pri:0, instance:Mounika.EtEProject.HomePage@7fee8714]" name="browsertermination" is-config="true" duration-ms="257" started-at="2020-09-22T19:05:11Z" finished-at="2020-09-22T19:05:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsertermination -->
+      </class> <!-- Mounika.EtEProject.HomePage -->
+    </test> <!-- validating user login -->
+  </suite> <!-- Suite -->
+</testng-results>

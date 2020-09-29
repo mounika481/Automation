@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <listeners>
+    <listener class-name="Mounika.EtEProject.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="validating title of featured courses(failed)" parallel="tests">
+    <classes>
+      <class name="Mounika.EtEProject.ValidateTitle">
+        <methods>
+          <include name="titleValidation"/>
+          <include name="initialization"/>
+          <include name="browserterminatin"/>
+        </methods>
+      </class> <!-- Mounika.EtEProject.ValidateTitle -->
+    </classes>
+  </test> <!-- validating title of featured courses(failed) -->
+</suite> <!-- Failed suite [Suite] -->
