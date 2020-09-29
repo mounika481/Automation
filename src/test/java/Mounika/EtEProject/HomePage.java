@@ -20,6 +20,16 @@ public class HomePage extends Base {
 		driver=InitializeDriver();
 		//driver.get(prop.getProperty("url"));
 	}
+	/*
+	 * adding comment
+	 */
+	/**
+	 * 
+	 * @param Username
+	 * @param password
+	 * @param text
+	 * @throws IOException
+	 */
 	@Test(dataProvider="getdata")
 	public void basePageNavigation(String Username, String password, String text) throws IOException
 	{
